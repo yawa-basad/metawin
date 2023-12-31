@@ -1,0 +1,2 @@
+import{b1 as n,D as g,n as u}from"./entry.4421f2c3.js";const l=n(async(e,d)=>{{console.log("route guard for signup");const o=g(),t=o.$state.showRegisterForm,a=o.$state.showVerificationCodeForm,r=o.$state.showAvatarForm,s=o.isUserLogged,i=e.path;if(console.log(e,t,a,r,s),s)return console.log("Heading to",e.path,"but user is already logged in. Go to lobby."),u({path:"/"});!t&&!a&&!r&&(console.log("Heading to",i,"but signup route guard triggered. Go to homepage."),window.location.href="/")}});export{l as default};
+//# sourceMappingURL=routeGuardSignup.a1801c14.js.map

@@ -1,0 +1,2 @@
+import{_ as e,o as n,c as o,d as a,y as c}from"./entry.4421f2c3.js";const s={name:"ButtonLinkIcon",props:{title:String,href:String,ico:String}},r=["href","title"];function i(_,l,t,f,p,m){return n(),o("a",{href:t.href,title:t.title,class:"inline-block p-4",target:"_blank"},[a("span",{class:c([t.ico,"text-[22px]"])},null,2)],8,r)}const h=e(s,[["render",i]]);export{h as _};
+//# sourceMappingURL=ButtonLinkIcon.7cb63e0a.js.map

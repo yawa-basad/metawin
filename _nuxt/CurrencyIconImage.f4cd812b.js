@@ -1,0 +1,2 @@
+import{_ as c,f as o,o as t,c as r}from"./entry.4421f2c3.js";const n=""+new URL("ico-eth-opacity-blue2.469ecc1a.svg",import.meta.url).href,s=""+new URL("ico-meth-gold2.13fe2cc7.svg",import.meta.url).href,a=o({name:"CurrencyIconImage",props:["currency"],computed:{imageSrc(){return this.currency==="METH"?s:n}}}),i=["src"];function m(e,p,u,_,l,f){return t(),r("img",{src:e.imageSrc,alt:"Currency icon",width:"10",class:"w-auto"},null,8,i)}const d=c(a,[["render",m]]);export{d as _};
+//# sourceMappingURL=CurrencyIconImage.f4cd812b.js.map

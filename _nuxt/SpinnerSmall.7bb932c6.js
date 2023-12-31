@@ -1,0 +1,2 @@
+import{_ as e,o as s,c as t,d as n,a7 as o}from"./entry.4421f2c3.js";const c={name:"SpinnerSmall"},_={class:"block text-center py-3 m-0"},a=n("img",{class:"inline-block spinner-border animate-spin-slowing m-0",src:o,alt:"",width:"30",height:"30"},null,-1),r=[a];function i(l,p,m,d,h,f){return s(),t("div",_,r)}const x=e(c,[["render",i]]);export{x as _};
+//# sourceMappingURL=SpinnerSmall.7bb932c6.js.map

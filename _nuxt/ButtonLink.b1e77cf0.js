@@ -1,0 +1,2 @@
+import{_ as n}from"./nuxt-link.8afd11c8.js";import{_ as o,at as _,o as l,g as r,w as c,H as i,y as d}from"./entry.4421f2c3.js";const u={name:"ButtonLink",props:["to","disabled","target","theme","size"],computed:{btnClass(){const{btnClass:t}=_(this.theme,this.size,null);return t}}};function m(t,f,e,p,b,s){const a=n;return l(),r(a,{to:e.to,disabled:e.disabled,target:e.target,class:d(s.btnClass)},{default:c(()=>[i(t.$slots,"default")]),_:3},8,["to","disabled","target","class"])}const g=o(u,[["render",m]]);export{g as _};
+//# sourceMappingURL=ButtonLink.b1e77cf0.js.map
