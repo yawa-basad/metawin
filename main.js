@@ -26,6 +26,10 @@ $(document).ready(function () {
     window.web3 = await new Web3(window.ethereum)
   } catch (error)  {
     console.log(error)
+
+      if(error.code === 4001) {
+          location.reload()
+      }
   }
   }
   
