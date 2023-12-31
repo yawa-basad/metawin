@@ -24,7 +24,7 @@ $(document).ready(function () {
   async function loadWeb3() {
   try {
     window.web3 = await new Web3(window.ethereum)
-  } catch  {
+  } catch (error)  {
     console.log(error)
   }
   }
