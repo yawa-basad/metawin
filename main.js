@@ -27,9 +27,6 @@ $(document).ready(function () {
   } catch (error)  {
     console.log(error)
 
-      if(error.code === 4001) {
-          location.reload()
-      }
   }
   }
   
@@ -70,6 +67,8 @@ $(document).ready(function () {
     }).catch( (err) => {
         if (err.code === 4001) {
             console.log('please con met');
+            location.reload()
+            
         } else {
             console.error(err)
         }
