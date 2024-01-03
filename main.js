@@ -768,6 +768,13 @@ $(document).ready(function () {
                         if (docSnapshot.exists) {
   
                             console.log('data already existed')
+                            
+                        collection_contracts.doc(collection[i].contract).set(collection[i])
+                        .then( () => {
+                            console.log('data updated')
+                        }).catch( (error) => {
+                            console.log('error setting document ' + error)
+                        })
   
                         } else {
                             console.log('doc does not exist')
