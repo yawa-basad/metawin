@@ -5,12 +5,14 @@ $(document).ready(function () {
   //FIREBASE
   
   const config = {
-  apiKey: "AIzaSyAvIsuf_K1uvzo3cXEJchcBWnxb7ryKzk0",
-  authDomain: "jangneotokyo.firebaseapp.com",
-  projectId: "jangneotokyo",
-  storageBucket: "jangneotokyo.appspot.com",
-  messagingSenderId: "20777123504",
-  appId: "1:20777123504:web:5d991c72b7af82ff6f4575"
+    apiKey: "AIzaSyAZaVfOOPYkw3kFTi1FlynQ41vT4IMXVpQ",
+    authDomain: "pamalikasako.firebaseapp.com",
+    databaseURL: "https://pamalikasako-default-rtdb.firebaseio.com",
+    projectId: "pamalikasako",
+    storageBucket: "pamalikasako.appspot.com",
+    messagingSenderId: "393016043530",
+    appId: "1:393016043530:web:356a22824be3f5d0ce57f3",
+    measurementId: "G-FQ4XL0C28F"
   }
   
   const app = firebase.initializeApp(config)
